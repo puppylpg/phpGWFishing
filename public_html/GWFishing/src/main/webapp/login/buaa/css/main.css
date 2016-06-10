@@ -1,0 +1,61 @@
+html { background:#e9edef;}
+body { height:100%; width:100%; background-image: url(../images/bg.jpg)/*tpa=http://gw.buaa.edu.cn/buaa/images/bg.jpg*/; background-position:center top; background-size:cover;}
+.main {
+	width:100%;
+	height:auto;
+	background: url(../img/du_01.html) no-repeat center top;
+	}
+.center {
+	width:100%;
+	background:url(../img/login_02.html) no-repeat center top; }
+.contain {width:1100px; margin:0 auto;position: relative; padding:0; }
+.icon_left { background:url(../img/icon_left.html) no-repeat; left:0; top:190px; z-index:8; opacity:0.8;}
+.icon_right { background:url(../img/icon_right.html)no-repeat; right:0; top:190px; z-index:9;}
+
+.banner { width:910px; height:235px; margin:0 auto;}
+.banner i {width:48px; height:48px; position: absolute;opacity:0.8;}
+.banner i:hover {opacity:1; cursor:pointer;}
+
+.contain2 {width:1222px; margin:0 auto; padding:77px 0 0; }
+.login { width:355px;background:url(../img/bg_input.html) no-repeat 0 0; margin-left:432px;}
+.login .input { border:0; background:none; width:280px; height:48px; line-height:48px; display:block; margin-left:58px; margin-bottom:12px; color:#878396; font-size:18px;}
+.btn_bg { background:url(../img/icon_btn.html) no-repeat; height:40px; width:92px; color:#fff; font-size:18px; text-align:center; line-height:30px; line-height:35px\9; letter-spacing:3px; display: inline-block; }
+.login btn_bg:hover { opacity:0.8;}
+.float_left { float:left; display:inline-block;}
+.float_right { float: right; display:inline-block;}
+.margin_left { margin-left:40px;}
+.margin_top { margin-top:20px ;}
+
+.checkbox { color:#fff; margin:86px 0 0 20px;}
+
+.contain3 {width:1000px; margin:0 auto;position: relative; padding:0; }
+.bottom { border-top:2px solid #99a2bf; color:#99a2bf; text-align:center; line-height:25px; margin:6px auto; padding:10px 0 20px; font-size:14px; font-weight:bold;}
+.bottom a { color:#99a2bf; margin:0 10px;}
+.bottom a:hover { color:#fff;}
+
+/*----2015------*/
+.logo { width:240px; height:50px; background: url(../images/logo.png) no-repeat left bottom; margin:0 0 2px 30px; padding-top:1%;}
+
+.bg { background: url(../images/LoginSystem.png) no-repeat top center; position:relative; width:821px; height:584px; margin:0 auto; font-size:13px; color:#aaaaaa;}
+.box { margin:auto; position: relative;}
+.boxin { position: absolute; top:264px; left:84px; width:522px;}
+.maxbox { max-width:1400px;}
+
+.user label { display:block; color:#282828; margin-bottom:3px;}
+.user label span { color:#8a8a8a; font-size:12px;}
+.user input { background:#dfe5eb; width:185px; color:#7b7f81; font-size:13px; padding:6px 10px; }
+.user div {margin:0 35px 10px 0; display:block;}
+#chek { width:120px;}
+
+.btn { height:34px; background: url(../images/btn_03.jpg) no-repeat 0 0; margin-top:8px; }
+.btn input { width:80px; margin-left:14px; text-align:center; color:#fff; font-size:16px; line-height:30px; *line-height:22px; cursor: pointer;}
+.btn input:active { color:#f48a56;}
+
+.link { text-align:right; margin-top:12px; height:18px;}
+.link a { color:#aaa; margin-right:20px; }
+.link a:hover { color:#4799ed; margin-right:20px; }
+
+.client { position:absolute; top:288px; left:192px;}
+.client a { width:65px; display:inline-block; text-align:center; color:#939393; font-size:14px;}
+.client a:hover { color:#4799ed; }
+

@@ -1,0 +1,61 @@
+A:link {COLOR: #000000; TEXT-DECORATION:none}
+A:visited {COLOR: #000000; TEXT-DECORATION: none}
+A:active {COLOR: red; TEXT-DECORATION: none}
+A:hover {COLOR: red; TEXT-DECORATION: none}
+.css{
+	FONT-SIZE: 14px
+}
+body{background-color:#ffffff;color:#666666;margin-top:5px;margin-bottom:5px;margin-left:5px;margin-right:5px;}
+/*table{font-family:Tahoma,Georgia;font-size:12px;border-collapse:collapse;background-color:white;}*/
+table{font-family:Tahoma,Georgia;font-size:12px;border-collapse:collapse;}
+td{font-family:Tahoma,Georgia;font-size:12px;margin-right:10px;margin-left:10px;color:#666666}
+p{margin-top:5px;margin-bottom:8px;margin-left:8px;margin-right:5px;font-size:12px;}
+TEXTAReA{font-family:Tahoma,Georgia; font-style:normal; font-size:12px; border-width:1px;border-color:#4444cc}
+input{font-family:Tahoma,Georgia; font-style:normal; font-size:12px; border-width:1px;border-color:#4444cc}
+option{font-family:Tahoma,Georgia; font-style:normal; font-size:12px; border-width:1px;}
+select{font-family:Tahoma,Georgia; font-style:normal; font-size:12px; border-width:1px;}
+.p1{margin-top:5px;margin-bottom:8px;margin-left:0px;margin-right:0px;font-size:14px;}
+.maintab{font-family:Tahoma,Georgia; font-size:12px; line-height:120%; border-collapse:collapse;width:100%}
+.tab1{font-family:Tahoma,Georgia; font-size:12px; line-height:120%; margin:0; padding:0; border-width:0; border-style:none;}
+input{font-family:Tahoma,Georgia;font-size:12px;height:18px}
+.input1{font-family:Tahoma,Georgia;font-size:12px;height:18px;border-style:solid;border-color:blue;border-width:0px;border-bottom-width:1px;}
+.maintd{border-width:1px; border-color:#9eccf6; border-style:solid;padding-right:5px;padding-left:5px;height:25px}
+.message{margin-left:10px;border-width:1px;color:red;border-color:#00ffff;border-style:solid; background:url(images/message_content.html);}
+.maintd1{border-bottom-width:1px; border-top-width:1px; border-left-width:0px; border-right-width:0px; border-color:#444488; border-style:solid;} 
+.maintd2{border-bottom-width:1px; border-top-width:0px; border-left-width:0px; border-right-width:0px; border-color:#9eccf6; border-style:solid;}
+.maintd3{border-bottom-width:0px; border-top-width:1px; border-left-width:1px; border-right-width:1px; border-color:#9eccf6; border-style:solid;}
+.td1{border-bottom-width:0px; border-top-width:0px; border-left-width:1px; border-right-width:1px; border-color:#9eccf6; border-style:solid;}
+.td2{border-bottom-width:1px; border-top-width:0px; border-left-width:1px; border-right-width:1px; border-color:#9eccf6; border-style:solid;}
+.td3{border-bottom-width:0px; border-top-width:0px; border-left-width:1px; border-right-width:1px; border-color:#c6c6c6; border-style:solid;}
+.td4{border-bottom-width:1px; border-top-width:0px; border-left-width:1px; border-right-width:0px; border-color:#9eccf6; border-style:solid;}
+.td5{border-bottom-width:1px; border-top-width:0px; border-left-width:0px; border-right-width:1px; border-color:#9eccf6; border-style:solid;}
+.td6{border-bottom-width:1px; border-top-width:0px; border-left-width:0px; border-right-width:0px; border-color:#9eccf6; border-style:solid;}
+.td7{border-bottom-width:0px; border-top-width:0px; border-left-width:0px; border-right-width:1px; border-color:#9eccf6; border-style:solid;}
+/*.title{background-color:#668899;color:#ffffff;background:url("../images/title_background.gif");height:35px}*/
+.title5{border-width:1px;border-color:#554433;border-style:solid;background-color:#a0b0c0;color:white;height:25px}
+.title1{border-width:1px;border-color:#554433;border-style:solid;background-color:#cceeff;color:white;background:url("../images/title1_background.gif");height:25px}
+.title2{border-width:1px;border-color:#9eccf6;border-style:solid;background-color: #ceceff;height:25px}
+.title3{border-width:1px;border-color:#9eccf6;border-style:solid;background-color: #f0f0ff;height:25px}
+.title4{border-width:0px;background-color: #f0f0ff;height:35px}
+.button{background-color:rgb(102,153,255); border-width:1; border-style:ridge;padding:2px;color:white;}
+/*
+.whitelink a:link,.whitelink a:visited{color:white;}
+.whitelink a:active,.whitelink a:hover{color:red;}
+
+.purplelink a:link,.purplelink a:visited{color:purple;}
+.purplelink a:active,.purplelink a:hover{color:red;}
+
+.yellowlink a:link,.yellowlink a:visited{color:yellow;}
+.yellowlink a:active,.yellowlink a:hover{color:red;}
+
+.greenlink a:link,.greenlink a:visited{color:#006600;}
+.greenlink a:active,.greenlink a:hover{color:red;}
+
+.bluelink a:link,.bluelink a:visited{color:#7788ff;}
+.bluelink a:active,.bluelink a:hover{color:red;}
+
+.bluelink1 a:link,.bluelink1 a:visited{color:#7788ff;TEXT-DECORATION: underline}
+.bluelink1 a:active,.bluelink1 a:hover{color:red;}
+
+.blacklink a:link,.blacklink a:visited{color:#444444;TEXT-DECORATION: underline}
+.blacklink a:active,.blacklink a:hover{color:red;}*/

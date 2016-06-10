@@ -1,0 +1,87 @@
+<html>
+
+<!-- Mirrored from gw.buaa.edu.cn/ by HTTraQt Website Copier/1.x [Karbofos 2012-2015] Tue, 07 Jun 2016 04:52:05 GMT -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="renderer" content="webkit">
+<title>北航校园网认证计费系统</title>
+<link href="buaa/css/style.css" rel="stylesheet">
+<link href="buaa/css/main.css" rel="stylesheet">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="lib/md5.js"></script>
+<script type="text/javascript" src="js/bulletin.js"></script>
+<script type="text/javascript" src="js/login.js"></script>
+</head>
+<body>
+<div class="logo"></div>
+<div class="bg">
+	<img src="buaa/images/title.gif" style=" position:absolute; left:230px; top:100px;">
+	<div style=" position:absolute; left:490px; top:45px; width:260; height:160px; " >
+	<a href="../external.html?link=http://nic.buaa.edu.cn/tzgg/89999.htm" style="display:block;color:#FF3300; padding-bottom:3px;">&nbsp;&nbsp;我要炸学校！！！  <img src="images/news.gif" border="0">  2016-04-01</a>
+	<a href="../external.html?link=http://nic.buaa.edu.cn/tzgg/89273.htm" style="display:block;color:#000000; padding-bottom:3px;">&nbsp;&nbsp;关于校园网出口防火墙升级通知   2016-03-18</a>
+	<a href="../external.html?link=http://nic.buaa.edu.cn/tzgg/87235.htm"  style="display:block;color:#000000; padding-bottom:3px;">&nbsp;&nbsp;关于校园网流量在校期间不清零通知   2015-12-12</a>
+	
+	</div>
+    <div class="boxin">
+    	<form name="form1" onsubmit="do_login();return false;" method="post" action="../external.html?link=http://gw.buaa.edu.cn/cgi-bin/do_login">
+			<input name="drop" type="hidden" value="0">
+			<input type="hidden" name="uid" value="">
+		<div class="user">
+        	<div class="float_left">
+            	<label>用户名<span>（User Name）</span></label>
+     			<input name="uname" id="loginname" node-type="username" tabindex="1" maxlength="64" type="text" placeholder="工作证号/学号">
+            </div>
+            <div>
+            	<label>密码<span>（Password）</span></label>
+            	<input id="password" name="pass" node-type="password" tabindex="2" maxlength="24" type="password" placeholder="初始密码为身份证号后8位">
+			</div>
+            <div class="user" style="display:none" id="show_checkcode">
+            <label>验证码<span>（Verify Code）</span></label>
+			<input type="text" placeholder="请输入验证码" id="chek" name="chekcode">
+			<img align="absmiddle" id="code_img" onclick="javascript:newgdcode(this,this.src);" alt="看不清楚，换一张" src="include/chekcode.png">			</div>
+        </div>
+		
+        <input name="save_me" title="Remember me" type="checkbox" value="1"> 记住密码&nbsp;&nbsp;&nbsp;<a href="../external.html?link=http://10.111.1.67:8800/index.php?action=editpwd" target="_blank">忘记密码？</a>
+        <div class="btn">
+        	<input name="" type="submit" value="登录" id="button" onsubmit="return do_login()">
+            <input name="" type="button" value="注销" id="duankai" onclick="force_logout()">
+            <input name="" type="button" value="自服务" id="goto_services" onclick="judge_login()">
+            <input name="" type="button" value="新手上路" id="operation_desc"  onclick="window.open('Bootstrap/file/buaa_abis_operation_tutorial.pdf')"><!-- <img src="../images/news.gif" border="1"> -->
+        </div>
+        </form>
+        <div class="client">
+        	<a href="files/SRun3K.exe" target="_blank">Windows</a>
+            <a href="../external.html?link=https://itunes.apple.com/cn/app/shen-lan/id849464884?mt=8" target="_blank">iphone</a>
+            <a href="files/auth.apk" target="_blank">Android</a>
+            <a href="download_client.html" target="_blank">其他</a>        </div>
+    </div>
+</div>
+<script language="javascript">
+    var cook = getCookie("srun_login");
+    if (cook != null) {
+        var arr = cook.split("|");
+        document.form1.uname.value = arr[0];
+        document.form1.pass.value = arr[1];
+        if (arr[1] != "") {
+            document.form1.save_me.checked = true;
+        }
+    }
+	
+	function showDiv(id){
+		var show1 = document.getElementById('show1');
+		var show2 = document.getElementById('show2');
+		if(id==1){
+			show1.style.display = "block";
+			show2.style.display = "none";
+		}else if(id==2){
+			show1.style.display = "none";
+			show2.style.display = "block";
+		}
+	}
+</script>
+
+
+</body>
+<!-- Mirrored from gw.buaa.edu.cn/ by HTTraQt Website Copier/1.x [Karbofos 2012-2015] Tue, 07 Jun 2016 04:52:08 GMT -->
+</html>

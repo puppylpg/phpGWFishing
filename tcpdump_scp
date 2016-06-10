@@ -1,0 +1,7 @@
+# 查看80端口占用情况
+netstat -anlp | grep 80
+
+# 图书馆登录截取
+tcpdump -i br-lan tcp port 80 and dst host 218.240.29.96 -w library.pcap
+# 远程拷贝到本机
+scp library.pcap lgl@192.168.1.237:~/library.pcap
